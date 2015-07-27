@@ -1,0 +1,16 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TricycleStudios/React-Utils-Web",
+  "authors": [
+    "Scott Crespo <screspo@highcornergroup.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
