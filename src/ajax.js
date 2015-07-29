@@ -1,5 +1,3 @@
-var $ = require('../bower_components/jquery/jquery.min.js');
-
 exports.getData = function(url, csrftoken, setState, stateVariable) {
 
   $.ajax({
