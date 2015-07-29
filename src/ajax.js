@@ -1,4 +1,4 @@
-exports.getData = function(url, csrftoken, setState, stateVariable) {
+exports.getData = function(url, csrftoken) {
 
   $.ajax({
     beforeSend: function(request) {
@@ -12,12 +12,8 @@ exports.getData = function(url, csrftoken, setState, stateVariable) {
     type: 'GET',
 
     success: function(data) {
-      alert('Success!');
-      setState({stateVariable:data});
     }.bind(this),
-
     error: function(xhr, status, err) {
-      console.error(data, status, err.toString());
     }.bind(this)
   });
 };
